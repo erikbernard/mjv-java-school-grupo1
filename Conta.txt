@@ -1,0 +1,10 @@
+public Class Conta {
+
+	private Double saldoConta;
+	
+	
+	private void sacar(Double valor) {
+		this.saldoConta -= valor;
+	}
+
+}
