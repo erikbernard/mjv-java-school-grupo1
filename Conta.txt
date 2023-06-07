@@ -1,9 +1,9 @@
 public Class Conta {
 
-	private Double saldoConta;
+	double saldoConta;
 	
 	
-	private void sacar(Double valor) {
+	void sacar(double valor) {
 		this.saldoConta -= valor;
 	}
 
