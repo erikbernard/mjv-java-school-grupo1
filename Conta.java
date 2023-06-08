@@ -2,7 +2,8 @@ public class Conta {
 
     double saldoConta;
     String nomeCliente;
-	
+    String numeroConta;
+	boolean contaAtiva;
     void sacar(double valor) {
         this.saldoConta -= valor;
     }
@@ -11,5 +12,8 @@ public class Conta {
 	return saldoConta;
     }
 
+    boolean cancelarConta(){
+        return this.contaAtiva = false;
+    }
 
 }
