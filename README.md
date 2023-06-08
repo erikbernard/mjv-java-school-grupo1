@@ -1,2 +1,2 @@
 # Projeto de desenvolvimeto 
-jornada Vack End com java e SpringBoot
+jornada Back End com java e SpringBoot
