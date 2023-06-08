@@ -13,7 +13,7 @@ public class Conta {
 	return saldoConta;
     }
 
-    void extrato () {
+    void consultarExtrato() {
         System.out.println (this.nomeCliente", o extrato da sua conta é de: " this.extrato)
     }
 
