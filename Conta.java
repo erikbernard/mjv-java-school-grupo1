@@ -3,6 +3,8 @@ public class Conta {
 	double saldoConta;
 	String nomeCliente;
 	int numeroConta;
+  String dataNascimento;
+  float extrato;
 
 	void sacar(double valor) {
 		this.saldoConta -= valor;
@@ -19,5 +21,9 @@ public class Conta {
 		} else {
 		}
 	}
+  
+   void consultarExtrato() {
+      System.out.println (this.nomeCliente", o extrato da sua conta é de: " this.extrato)
+   }
 
 }
