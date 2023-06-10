@@ -3,12 +3,17 @@ public class Conta {
 	double saldoConta;
 	String nomeCliente;
 	int numeroConta;
+  boolean contaAtiva;
   String dataNascimento;
   float extrato;
 
 	void sacar(double valor) {
 		this.saldoConta -= valor;
 	}
+
+    boolean cancelarConta(){
+        return this.contaAtiva = false;
+    }
 
 	Double consultarSaldo() {
 		return saldoConta;
