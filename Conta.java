@@ -19,12 +19,8 @@ public class Conta {
 		return saldoConta;
 	}
 
-	void transferir(Conta transfere, Conta recebe, double valor) {
-		if (transfere.saldoConta >= valor) {
-			transfere.sacar(valor);
-			recebe.saldoConta += valor;
-		} else {
-		}
+	boolean transferir(Conta transfere, Conta recebe, double valor) {
+		
 	}
   
    void consultarExtrato() {
