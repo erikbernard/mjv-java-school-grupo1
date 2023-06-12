@@ -3,9 +3,9 @@ public class Conta {
 	double saldoConta;
 	String nomeCliente;
 	int numeroConta;
-  boolean contaAtiva;
-  String dataNascimento;
-  float extrato;
+	boolean contaAtiva;
+	String dataNascimento;
+	float extrato;
 
 	void sacar(double valor) {
 		this.saldoConta -= valor;
@@ -19,12 +19,8 @@ public class Conta {
 		return saldoConta;
 	}
 
-	void transferir(Conta transfere, Conta recebe, double valor) {
-		if (transfere.saldoConta >= valor) {
-			transfere.sacar(valor);
-			recebe.saldoConta += valor;
-		} else {
-		}
+	boolean transferir(Conta transfere, Conta recebe, double valor) {
+		
 	}
   
    void consultarExtrato() {
